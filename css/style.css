@@ -1,0 +1,455 @@
+body {
+    background-color: #33CCFF;
+    font-family: 'Roboto', sans-serif;
+}
+#e2l_navbar {
+    background-color: #006699;
+    width: 100%;
+    height: 70px;
+}
+#e2l_text {
+    color: white;
+}
+#e2l_red_text {
+    color: red;
+}
+#e2l_menu {
+    float: right;
+    margin: 10px 20px 0 0;
+    
+}
+#e2l_menu a {
+    color: white; 
+    text-decoration: none; 
+}
+#e2l_logo {
+    float: left;
+    margin: 15px 0px 10px 40px; 
+}
+
+/*LOGIN SCREEN*/
+#e2l_login_wrapper {
+    margin: 0px;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+/*DASHBOARD TILES*/
+#e2l_tile {
+    border-radius: 25px;
+    float: left;
+    margin: 10px;
+    background-color: white;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+#dash_txt {
+    display : table-row;
+    color: black;
+    text-align: center;    
+    position: relative;
+    top: 20px;
+}
+#dash_img {
+    display : table-row;
+}
+#e2l_tile_row {
+
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-flex-direction: row;
+            flex-direction: row; 
+}
+#e2l_img {
+    width: 130px;
+    height: 130px;
+}
+#e2l_tile_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+/*    border: 2px solid #8AC007;*/
+}
+#e2l_tile_container {
+    /*border: 2px solid #8AC007;*/
+
+}
+/*LESSON TILES*/
+#e2l_lesson_tiles {
+    margin: 10px;
+}
+#e2l_lesson_tile_wrapper{
+    margin: -10px;
+}
+#e2l_lesson_left {
+    border-radius: 25px;
+    background-color: #CCFFFF;
+    float: left;
+    width: 20%;
+    height: 90%; 
+    margin: 10px;
+}
+#e2l_lesson_right {
+    border-radius: 25px;
+    background-color: #CCFFFF;
+    float: left;
+    width: 70%;
+    height: 90%;
+    margin: 10px;
+}
+.e2l_lesson_box{
+    float: left;
+    text-align: center; 
+    height: 170px;
+    width: 130px;
+    box-shadow: 3px 3px 3px #999999;
+    background-color: #FFF;
+    cursor:pointer;
+    margin: 10px;
+}
+#e2l_thumbnail {
+    
+    height: 75px;
+}
+#e2l_lesson_row {
+    float: left;
+}
+#tile {
+    float: left;
+    margin: 10px;
+    width: 130px;
+    height: 170px;
+    background-color: white;
+}
+
+/*LESSON PREVIEW*/
+#e2l_lesson_preview {
+    border-radius: 25px; 
+    background-color: #CCFFFF; 
+    height: 570px; 
+    width: 70%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+}
+#e2l_lesson_default_txt {
+    height: 20px; 
+    color: #006699;
+}
+#e2l_lesson_youtube_wrapper {
+    background-color: #666666; 
+    height: 360px;
+}
+#e2l_lesson_youtube {
+    width: 480px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+#e2l_lesson_desc_box { 
+    background-color: white; 
+    width: 480px; 
+    height: 190px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    position: relative;
+    color: #006699;
+}
+#e2l_lesson_preview_btn {
+    border-radius: 10px; 
+    background-color: #006699; 
+    color: white; 
+    width: 200px; 
+    font-size: 25px;
+    margin-left: auto; 
+    margin-right: auto; 
+    position: absolute; 
+    bottom: 20; 
+    left: 0; 
+    right: 0;
+    cursor: pointer;
+}
+#e2l_lesson_desc {
+   
+}
+#e2l_lesson_amt {
+    color: #666666;
+    font-size: 30;
+    text-align: right;
+}
+#e2l_lesson_title {
+    font-size: 30;
+}
+#e2l_preview_frame {
+    background-color: #999999;
+    width: 100%;
+    /*border: 2px solid red;*/
+}
+#e2l_desc_frame {
+display : table-row;
+    /*position: relative;*/
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    /*border: 2px solid green;*/
+}
+#e2l_desc_name {
+    color: #006699;
+    float: left;
+    margin: 10px 0px 0px 10px;
+    font-size: 200%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+#e2l_desc_reward {
+    color: #999999;
+    float: right;
+    margin: 10px 10px 0px 0px;
+    font-size: 200%;
+    font-family: 'Roboto', sans-serif;
+}
+#e2l_desc_text {
+    float: left;
+    margin: 10px;
+}
+#e2l_start_button {
+    color: white;
+    background-color: #006699;
+    border-radius: 15px;
+    width: 150px;
+    height: 40px; 
+    cursor:pointer;
+}
+#e2l_start_text {
+    vertical-align: -25px;
+}
+#e2l_button_wrapper {
+    clear: both;
+    position: absolute; 
+    bottom: 4; 
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+/*QUIZ FUNCTIONS*/
+#e2l_question_row {
+    color: #006699;
+}
+.e2l_answer_box {
+    height: 30px;
+    background-color: white;
+    border-radius: 25px;
+    color: #006699;
+    margin: 10px;
+    cursor:pointer;
+ }
+#answer_text {
+    padding: 0px 0px 0px 20px;
+    text-align: left;
+}
+#e2l_answer_container {
+    width: 75%;
+}
+#e2l_quiz_wrapper {
+    background-color: #AADEE9;
+    border-radius: 25px;
+    width: 75%;
+}
+#e2l_quiz_video_wrapper {
+    background-color: #999999;
+    width: 100%;
+}
+#quiz_button {
+    padding: 10px 0px 10px 0px;
+    color: white;
+    background-color: #006699;
+    width: 70px; 
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+}
+#button_complete {
+    width: 100px;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    background-color: #006699;
+    border-radius: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+/*REWARDS PAGE*/
+#e2l_reward_amt {
+    height: 40%;
+    width: 85%;
+    background-color: white;
+    border-radius: 25px; 
+}
+#e2l_reward_box {
+    padding: 20px 0px 0px 0px;
+}
+#e2l_balance {
+    float: left;
+}
+#e2l_cards {
+    float: right;
+}
+/*TASK MENU*/
+#e2l_task_box {
+    margin: 20px;
+}
+#e2l_left_task {
+    float: left;
+    width: 20%;
+    height: 80%;
+    background-color: white;
+    border-radius: 25px;
+}
+#e2l_right_task {
+    float: right;
+    width: 77%;
+    height: 80%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 0px 10px 0px 10px;
+    /*border: 2px solid #8AC007;*/
+}
+#e2l_task_row {
+    background-color: #33CCFF;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    height: 50px;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+#e2l_task_container {
+    /*border: 2px solid black;*/
+}
+#e2l_task_name {
+    
+}
+#e2l_task_reward {
+ 
+}
+#action_btn {
+    background-color: green;
+    border-radius: 15px;
+    color: white;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+}
+#done_btn {
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+}
+
+/*START TASK PAGE*/
+#e2l_start_task {
+    width: 90%;
+    margin: 0 auto;
+    /*border: 2px solid black;*/
+}
+#e2l_start_t_left {
+    background-color: #CCFFFF;
+    color: #006699;
+    float: left;
+    height: 80%;
+    width: 70%;
+    border-radius: 25px;
+    margin: 10px 10px 10px 0px;
+}
+#e2l_start_t_right {
+    background-color: #CCFFFF;
+    color: #006699;
+    float: left;
+    width: 25%;
+    height: 80%;
+    border-radius: 25px;
+    margin: 10px 0px 10px 10px;
+}
+#e2l_task_inst_box {
+    width: 70%; 
+}
+#e2l_start_left_header {
+    margin: 20px;
+}
+#e2l_task_icon {
+    
+}
+#e2l_task_right_wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    /*border: 2px solid black;*/
+}
+#e2l_inst {
+    float: right; 
+    margin: 20px 300px 0px 0px;
+    font-size: 200%;
+    font-weight: bold;
+}
+#e2l_task_info {
+    width: 90%;
+    height: 50%;
+    font-weight: bold;
+   /* border: 2px solid black;*/
+}
+#e2l_task_inst_box {
+    position: relative;
+    height: 90%;
+    left: 20px;
+    /*border: 2px solid black;*/
+}
+#e2l_task_reward_box{
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+#e2l_task_txt {
+    float: left;
+}
+#e2l_task_amt {
+    float: right;
+}
+/*EASY PIE*/
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 255px;
+  height: 255px;
+  margin-top: 50px; 
+  margin-bottom: 50px;
+  left: -80%;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.percent {
+    display: inline-block;
+    line-height: 255px;
+    z-index: 2;
+}
+.percent:after {
+    content: '%';
+    margin-left: 0.1em;
+    font-size: .8em;
+}
